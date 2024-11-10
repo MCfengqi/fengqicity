@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>聊天系统</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Microsoft YaHei', Arial, sans-serif;
+            background: transparent !important;
+            overflow: hidden;
+        }
+
+        #chat-container {
+            position: absolute;
+            left: 20px;
+            top: 20px;
+            width: 600px;
+            background: transparent;
+            padding: 10px;
+            color: rgba(255, 255, 255, 0.95);
+            z-index: 1000;
+            font-size: 20px;
+        }
+
+        #chat-messages {
+            height: 350px;
+            overflow-y: auto;
+            margin-bottom: 10px;
+            padding: 5px;
+            font-size: 1.2em;
+            line-height: 1.5;
+            background: transparent;
+        }
+
+        #chat-messages::-webkit-scrollbar {
+            width: 4px;
+        }
+
+        #chat-messages::-webkit-scrollbar-track {
+            background: transparent;
+        }
+
+        #chat-messages::-webkit-scrollbar-thumb {
+            background: rgba(255, 255, 255, 0.1);
+        }
+
+        #chat-input {
+            width: calc(100% - 20px);
+            padding: 10px;
+            background: rgba(0, 0, 0, 0.2);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            color: white;
+            border-radius: 4px;
+            outline: none;
+            font-size: 1.2em;
+            font-family: inherit;
+            display: none;
+        }
+
+        #chat-input:focus {
+            background: rgba(0, 0, 0, 0.3);
+            border-color: rgba(255, 255, 255, 0.2);
+        }
+
+        .message {
+            margin: 3px 0;
+            padding: 5px;
+            word-wrap: break-word;
+            text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.7);
+            background: rgba(0, 0, 0, 0.1);
+            will-change: transform;
+            display: flex;
+            align-items: flex-start;
+        }
+
+        .system { color: #ffd700; }
+        .error { color: #ff6b6b; }
+        .success { color: #51cf66; }
+        .command { color: #74c0fc; }
+        .help { color: #fcc419; }
+
+        .player-name {
+            color: #4dabf7;
+            font-weight: bold;
+        }
+
+        .timestamp {
+            color: rgba(255, 255, 255, 0.6);
+            font-size: 0.9em;
+            font-family: monospace;
+            white-space: nowrap;
+            margin-right: 5px;
+        }
+
+        .content {
+            flex: 1;
+            word-break: break-word;
+        }
+    </style>
+</head>
+<body>
+    <div id="chat-container">
+        <div id="chat-messages"></div>
+        <input type="text" 
+               id="chat-input" 
+               placeholder="按 T 开始聊天..." 
+               maxlength="128"
+               autocomplete="off"
+               spellcheck="false">
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

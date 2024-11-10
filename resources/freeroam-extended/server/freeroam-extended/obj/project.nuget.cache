@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "FIQ17qcZ6mw=",
+  "success": true,
+  "projectFilePath": "F:\\cloudaltv\\altv-server\\resources\\freeroam-extended\\server\\freeroam-extended\\Freeroam-Extended.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ZhuanZ\\.nuget\\packages\\altv.net\\15.0.161-dev\\altv.net.15.0.161-dev.nupkg.sha512",
+    "C:\\Users\\ZhuanZ\\.nuget\\packages\\altv.net.async\\15.0.161-dev\\altv.net.async.15.0.161-dev.nupkg.sha512",
+    "C:\\Users\\ZhuanZ\\.nuget\\packages\\altv.net.capi\\15.0.161-dev\\altv.net.capi.15.0.161-dev.nupkg.sha512",
+    "C:\\Users\\ZhuanZ\\.nuget\\packages\\altv.net.resources.chat.api\\15.0.161-dev\\altv.net.resources.chat.api.15.0.161-dev.nupkg.sha512",
+    "C:\\Users\\ZhuanZ\\.nuget\\packages\\altv.net.shared\\15.0.161-dev\\altv.net.shared.15.0.161-dev.nupkg.sha512",
+    "C:\\Users\\ZhuanZ\\.nuget\\packages\\system.threading.channels\\6.0.0\\system.threading.channels.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>游戏HUD</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Microsoft YaHei', Arial, sans-serif;
+            background: transparent !important;
+            overflow: hidden;
+        }
+
+        #money-container {
+            position: absolute;
+            right: 20px;
+            top: 20px;
+            padding: 10px;
+            color: white;
+            font-size: 20px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+            z-index: 9999;
+        }
+
+        .money-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+            background: rgba(0, 0, 0, 0.4);
+            padding: 12px 20px;
+            border-radius: 8px;
+            backdrop-filter: blur(4px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            transition: all 0.3s ease;
+            min-width: 200px;
+        }
+
+        .money-item:hover {
+            background: rgba(0, 0, 0, 0.6);
+            transform: translateX(-5px);
+            border-color: rgba(255, 255, 255, 0.2);
+        }
+
+        .icon {
+            margin-right: 15px;
+            font-size: 24px;
+            color: #4CAF50;
+            text-shadow: 0 0 10px rgba(76, 175, 80, 0.5);
+        }
+
+        .bank-icon {
+            color: #2196F3;
+            text-shadow: 0 0 10px rgba(33, 150, 243, 0.5);
+        }
+
+        .amount {
+            font-weight: bold;
+            color: #fff;
+            font-size: 22px;
+            flex: 1;
+            text-align: right;
+            margin-right: 10px;
+            font-family: 'Consolas', monospace;
+        }
+
+        .currency {
+            color: rgba(255, 255, 255, 0.8);
+            font-size: 18px;
+            white-space: nowrap;
+        }
+
+        @keyframes moneyChange {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.1); }
+            100% { transform: scale(1); }
+        }
+
+        .money-change {
+            animation: moneyChange 0.3s ease;
+        }
+
+        @keyframes slideIn {
+            from { transform: translateX(100%); opacity: 0; }
+            to { transform: translateX(0); opacity: 1; }
+        }
+
+        .new-money {
+            animation: slideIn 0.5s ease forwards;
+        }
+    </style>
+</head>
+<body>
+    <div id="money-container">
+        <div class="money-item new-money">
+            <span class="icon">💰</span>
+            <span class="amount" id="cash">0</span>
+            <span class="currency">现金</span>
+        </div>
+        <div class="money-item new-money">
+            <span class="icon bank-icon">💳</span>
+            <span class="amount" id="bank">0</span>
+            <span class="currency">银行</span>
+        </div>
+    </div>
+    <script src="hud.js"></script>
+</body>
+</html> 

@@ -1,0 +1,265 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "AltV.Net/15.0.161-dev": {
+        "type": "package",
+        "dependencies": {
+          "AltV.Net.Shared": "15.0.161-dev"
+        },
+        "compile": {
+          "lib/net6.0/AltV.Net.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/AltV.Net.dll": {}
+        }
+      },
+      "AltV.Net.Async/15.0.161-dev": {
+        "type": "package",
+        "dependencies": {
+          "AltV.Net": "15.0.161-dev",
+          "System.Threading.Channels": "6.0.0"
+        },
+        "compile": {
+          "lib/net6.0/AltV.Net.Async.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/AltV.Net.Async.dll": {}
+        }
+      },
+      "AltV.Net.CApi/15.0.161-dev": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/AltV.Net.CApi.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/AltV.Net.CApi.dll": {}
+        }
+      },
+      "AltV.Net.Resources.Chat.Api/15.0.161-dev": {
+        "type": "package",
+        "dependencies": {
+          "AltV.Net": "15.0.161-dev"
+        },
+        "compile": {
+          "lib/net6.0/AltV.Net.Resources.Chat.Api.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/AltV.Net.Resources.Chat.Api.dll": {}
+        }
+      },
+      "AltV.Net.Shared/15.0.161-dev": {
+        "type": "package",
+        "dependencies": {
+          "AltV.Net.CApi": "15.0.161-dev"
+        },
+        "compile": {
+          "lib/net6.0/AltV.Net.Shared.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/AltV.Net.Shared.dll": {}
+        }
+      },
+      "System.Threading.Channels/6.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/System.Threading.Channels.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/System.Threading.Channels.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netcoreapp3.1/_._": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AltV.Net/15.0.161-dev": {
+      "sha512": "wIR4BeQQmo9GRItWpZSkAtooqkpJVRfPWzpjB4Uo+j5xLfCXq6goRn3Xbg8jMOYi+P8u6WNSVLbnUu+VTTRwTA==",
+      "type": "package",
+      "path": "altv.net/15.0.161-dev",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "altv.net.15.0.161-dev.nupkg.sha512",
+        "altv.net.nuspec",
+        "icon.png",
+        "lib/net6.0/AltV.Net.dll",
+        "license.txt"
+      ]
+    },
+    "AltV.Net.Async/15.0.161-dev": {
+      "sha512": "6jItQw3CvLvNsaEgvPd7oG6y3SV7R7c9/WYw8B83RMBBgeExFuLPZdD0gre/sjELPlRFks/et0q2vyCIdf8yoA==",
+      "type": "package",
+      "path": "altv.net.async/15.0.161-dev",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "altv.net.async.15.0.161-dev.nupkg.sha512",
+        "altv.net.async.nuspec",
+        "icon.png",
+        "lib/net6.0/AltV.Net.Async.dll",
+        "license.txt"
+      ]
+    },
+    "AltV.Net.CApi/15.0.161-dev": {
+      "sha512": "0TiQq73yYfFdy6naMwxuAVgryQLQDBovQajQ40mlpfjL0xWnJSa0ttv4SPS04jd7R9EKIi5CSBz5p0J+RkdVRg==",
+      "type": "package",
+      "path": "altv.net.capi/15.0.161-dev",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "altv.net.capi.15.0.161-dev.nupkg.sha512",
+        "altv.net.capi.nuspec",
+        "icon.png",
+        "lib/net6.0/AltV.Net.CApi.dll",
+        "license.txt"
+      ]
+    },
+    "AltV.Net.Resources.Chat.Api/15.0.161-dev": {
+      "sha512": "ZdEWt3w6JX1dq9EwZMnvJ4X2xLsbw40Q01bvAgSrX9oLba4HB4qdAbGQIVpT1zMNoe4ZEjJDuMYgi9Y3gqk/MQ==",
+      "type": "package",
+      "path": "altv.net.resources.chat.api/15.0.161-dev",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "altv.net.resources.chat.api.15.0.161-dev.nupkg.sha512",
+        "altv.net.resources.chat.api.nuspec",
+        "icon.png",
+        "lib/net6.0/AltV.Net.Resources.Chat.Api.dll",
+        "license.txt"
+      ]
+    },
+    "AltV.Net.Shared/15.0.161-dev": {
+      "sha512": "OpmL5TXstv7rODw8rZLIBIgBH/4ZuKDlcrBMxyl2YDaZQd55cLYu5loxIwwpA1LLhi2h+UHliL1tGaMCb5ixbQ==",
+      "type": "package",
+      "path": "altv.net.shared/15.0.161-dev",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "altv.net.shared.15.0.161-dev.nupkg.sha512",
+        "altv.net.shared.nuspec",
+        "icon.png",
+        "lib/net6.0/AltV.Net.Shared.dll",
+        "license.txt"
+      ]
+    },
+    "System.Threading.Channels/6.0.0": {
+      "sha512": "TY8/9+tI0mNaUMgntOxxaq2ndTkdXqLSxvPmas7XEqOlv9lQtB7wLjYGd756lOaO7Dvb5r/WXhluM+0Xe87v5Q==",
+      "type": "package",
+      "path": "system.threading.channels/6.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/netcoreapp2.0/System.Threading.Channels.targets",
+        "buildTransitive/netcoreapp3.1/_._",
+        "lib/net461/System.Threading.Channels.dll",
+        "lib/net461/System.Threading.Channels.xml",
+        "lib/net6.0/System.Threading.Channels.dll",
+        "lib/net6.0/System.Threading.Channels.xml",
+        "lib/netcoreapp3.1/System.Threading.Channels.dll",
+        "lib/netcoreapp3.1/System.Threading.Channels.xml",
+        "lib/netstandard2.0/System.Threading.Channels.dll",
+        "lib/netstandard2.0/System.Threading.Channels.xml",
+        "lib/netstandard2.1/System.Threading.Channels.dll",
+        "lib/netstandard2.1/System.Threading.Channels.xml",
+        "system.threading.channels.6.0.0.nupkg.sha512",
+        "system.threading.channels.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "AltV.Net.Async >= 15.0.161-dev",
+      "AltV.Net.Resources.Chat.Api >= 15.0.161-dev"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\ZhuanZ\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "F:\\cloudaltv\\altv-server\\resources\\freeroam-extended\\server\\freeroam-extended\\Freeroam-Extended.csproj",
+      "projectName": "Freeroam-Extended",
+      "projectPath": "F:\\cloudaltv\\altv-server\\resources\\freeroam-extended\\server\\freeroam-extended\\Freeroam-Extended.csproj",
+      "packagesPath": "C:\\Users\\ZhuanZ\\.nuget\\packages\\",
+      "outputPath": "F:\\cloudaltv\\altv-server\\resources\\freeroam-extended\\server\\freeroam-extended\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\ZhuanZ\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "dependencies": {
+          "AltV.Net.Async": {
+            "target": "Package",
+            "version": "[15.0.161-dev, )"
+          },
+          "AltV.Net.Resources.Chat.Api": {
+            "target": "Package",
+            "version": "[15.0.161-dev, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
