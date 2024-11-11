@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Freeroam-Extended
-build_property.ProjectDir = F:\cloudaltv\altv-server\resources\freeroam-extended\server\freeroam-extended\
+build_property.ProjectDir = F:\cloudaltv\fengqicity\resources\freeroam-extended\server\freeroam-extended\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "FIQ17qcZ6mw=",
+  "dgSpecHash": "Apd2JYr5Q94=",
   "success": true,
-  "projectFilePath": "F:\\cloudaltv\\altv-server\\resources\\freeroam-extended\\server\\freeroam-extended\\Freeroam-Extended.csproj",
+  "projectFilePath": "F:\\cloudaltv\\fengqicity\\resources\\freeroam-extended\\server\\freeroam-extended\\Freeroam-Extended.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ZhuanZ\\.nuget\\packages\\altv.net\\15.0.161-dev\\altv.net.15.0.161-dev.nupkg.sha512",
     "C:\\Users\\ZhuanZ\\.nuget\\packages\\altv.net.async\\15.0.161-dev\\altv.net.async.15.0.161-dev.nupkg.sha512",
