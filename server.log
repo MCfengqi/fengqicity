@@ -1,59 +1,43 @@
-[00:34:11] alt:V Server 16.2.21 (release)
-[00:34:11] Starting alt:V Server on [::]:7788
-[00:34:11] Loading resource chat
-[00:34:11][js] Server resources loaded successfully
-[00:34:11] Loaded resource chat
-[00:34:11] Loading resource freeroam
-[00:34:12][Warning][js] Trying to import resource 'chat' without 'alt:' prefix, this is deprecated behaviour.
-[00:34:12][Warning][js] Import 'alt:chat' instead to silence this warning.
-[00:34:12][js] Registered command: help
-[00:34:12][js] Registered command: veh
-[00:34:12][js] Registered command: pos
-[00:34:12][js] Registered command: tp
-[00:34:12][js] Registered command: model
-[00:34:12][js] Registered command: weapon
-[00:34:12][js] Registered command: weapons
-[00:34:12] Loaded resource freeroam
-[00:34:12] Required server permissions:
-[00:34:12] Optional server permissions:
-[00:34:12] Starting HTTP server on [::]:7788
-[00:34:12] Main thread started (ThreadId: 36648)
-[00:34:12] EntityStreamer thread started (ThreadId: 10528)
-[00:34:12] SyncSend thread started (ThreadId: 23256)
-[00:34:12] SyncSend thread started (ThreadId: 34240)
-[00:34:12] SyncSend thread started (ThreadId: 9324)
-[00:34:12] SyncSend thread started (ThreadId: 35884)
-[00:34:12] SyncSend thread started (ThreadId: 23040)
-[00:34:12] SyncSend thread started (ThreadId: 27884)
-[00:34:12] SyncSend thread started (ThreadId: 33012)
-[00:34:12] SyncSend thread started (ThreadId: 27764)
-[00:34:12] SyncReceive thread started (ThreadId: 30916)
-[00:34:12] NetworkWorker #1 thread started (ThreadId: 10272)
-[00:34:12] SyncReceive thread started (ThreadId: 2888)
-[00:34:12] SyncReceive thread started (ThreadId: 16108)
-[00:34:12] SyncReceive thread started (ThreadId: 29104)
-[00:34:12] Console thread started (ThreadId: 10176)
-[00:34:12][Warning] Server started in debug mode
-[00:34:21][Error] HTTP Request failed, curl code: 28
-[00:34:31][js] [连接] 玩家 666 已连接到服务器
-[00:34:31][js] Money initialized for player 666
-[00:34:31][js] [系统] 666 加入了服务器
-[00:34:32][js] Money updated for player 666: cash=5000, bank=10000
-[00:34:32][Error][js] [V8] Exception at freeroam:file:///F:/cloudaltv/altv-server/resources/freeroam/server/index.js:130
-[00:34:32][Error][js]         chat.broadcast(`{1cacd4}${player.name} {ffffff}has {00ff00}joined {ffffff}...
-[00:34:32][Error][js]   TypeError: chat.broadcast is not a function
-    at file:///F:/cloudaltv/altv-server/resources/freeroam/server/index.js:130:12
-[00:34:32][Error][js] TypeError: chat.broadcast is not a function
-[00:35:45][js] Money data cleared for disconnected player 666
-[00:35:45][js] [2024-00:35:45][断开] 玩家 666 断开连接
-[00:35:45][js] [2024-00:35:45][系统] 666 离开了服务器
-[00:35:45][Error][js] [V8] Exception at freeroam:file:///F:/cloudaltv/altv-server/resources/freeroam/server/index.js:167
-[00:35:45][Error][js]     chat.broadcast(`{1cacd4}${player.name} {ffffff}has {ff0000}left {ffffff}the Se...
-[00:35:45][Error][js]   TypeError: chat.broadcast is not a function
-    at file:///F:/cloudaltv/altv-server/resources/freeroam/server/index.js:167:8
-[00:35:45][Error][js] TypeError: chat.broadcast is not a function
-[00:38:44] Stopping resource chat
-[00:38:44] Stopping resource freeroam
-[00:38:44] Stopped resource freeroam
-[00:38:44] Stopped resource chat
-[00:38:44] Server shutdown
+[10:43:29] alt:V Server 16.2.21 (release)
+[10:43:29] Starting 测试 on [::]:7788
+[10:43:29] Loading resource chat
+[10:43:29][js] [命令] 注册命令: help
+[10:43:29][js] [命令] 注册命令: car
+[10:43:29][js] [命令] 注册命令: veh
+[10:43:29][js] [命令] 注册命令: dv
+[10:43:29][js] [命令] 注册命令: tp
+[10:43:29][js] [命令] 注册命令: model
+[10:43:29][js] [命令] 注册命令: weapon
+[10:43:29][js] [命令] 注册命令: weapons
+[10:43:29][js] [命令] 注册命令: pos
+[10:43:29][js] [系统] 聊天系统初始化完成
+[10:43:29] Loaded resource chat
+[10:43:29] Loading resource freeroam
+[10:43:29][js] [系统] 出生点系统初始化完成
+[10:43:29] Loaded resource freeroam
+[10:43:29] Required server permissions:
+[10:43:29] Optional server permissions:
+[10:43:29] Starting HTTP server on [::]:7788
+[10:43:29] Main thread started (ThreadId: 25480)
+[10:43:29] EntityStreamer thread started (ThreadId: 13108)
+[10:43:29] SyncSend thread started (ThreadId: 3616)
+[10:43:29] SyncSend thread started (ThreadId: 6860)
+[10:43:29] SyncSend thread started (ThreadId: 26840)
+[10:43:29] SyncSend thread started (ThreadId: 18352)
+[10:43:29] SyncSend thread started (ThreadId: 14052)
+[10:43:29] SyncSend thread started (ThreadId: 27856)
+[10:43:29] SyncSend thread started (ThreadId: 31980)
+[10:43:29] SyncSend thread started (ThreadId: 27280)
+[10:43:29] NetworkWorker #1 thread started (ThreadId: 4068)
+[10:43:29] SyncReceive thread started (ThreadId: 31732)
+[10:43:29] SyncReceive thread started (ThreadId: 31484)
+[10:43:29] SyncReceive thread started (ThreadId: 35892)
+[10:43:29] SyncReceive thread started (ThreadId: 31412)
+[10:43:29] Console thread started (ThreadId: 26924)
+[10:43:29][Warning] Server started in debug mode
+[10:43:35][js] [出生点] 玩家 666 在 洛圣都警察局 出生
+[10:48:19] Stopping resource chat
+[10:48:19] Stopping resource freeroam
+[10:48:19] Stopped resource freeroam
+[10:48:19] Stopped resource chat
+[10:48:20] Server shutdown
